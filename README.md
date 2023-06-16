@@ -9,7 +9,7 @@ For this project, I designed the tables to hold the data from CSV files, importe
 --------------
 Data Modeling:
 --------------
-I inspected the CSV files, and then sketched an Entity Relationship Diagram of the tables using pgAdmin4.  A screenshot of the ERD is titled ERDScreenshot.png and is located in the EMPLOYEESQL folder of this repository.
+I inspected the CSV files, and then sketched an Entity Relationship Diagram of the tables using pgAdmin4.  A screenshot of the ERD is titled ERDScreenshot.png and is located in the EmployeeSQL folder of this repository.
 
 -----------------
 Data Engineering:
@@ -20,7 +20,7 @@ I specified the data types, primary keys, foreign keys, and other constraints.
 
 For the primary keys, the columns arer unique. 
 
-All 6 tables can be viewed in the TableSchema.sql file that is located in the EMPLOYEESQL folder of this repository.
+All 6 tables can be viewed in the TableSchema.sql file that is located in the EmployeeSQL folder of this repository.
 
 Each applicable CSV file was then imported into its corresponding SQL table.
 
@@ -44,6 +44,6 @@ List each employee in the Sales and Development departments, including their emp
 
 List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
-All codes to complete these tasks are located in the sqlqueries.sql file in the EMPLOYEESQL folder of this repository.
+All codes to complete these tasks are located in the sqlqueries.sql file in the EmployeeSQL folder of this repository.
 
 ***N.B. ChatGPT was used to assist with an alternate code to pull the appropriate date ranges for task #2 'TO_DATE()'.
